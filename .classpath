@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Resto/src/main/java"/>
+	<classpathentry kind="lib" path="Resto/src/main/webapp/WEB-INF/lib/gson-2.10.jar"/>
+	<classpathentry kind="lib" path="Resto/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="Resto/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="Resto/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="output" path="Resto/build/classes"/>
+</classpath>
