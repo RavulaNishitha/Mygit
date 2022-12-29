@@ -12,9 +12,9 @@
 
 <a href ="account">My Profile</a><br><br>
 <a href ="myorders"> My Orders </a>
-Welcome to Resto <a href="viewcart" > <c:out value="${cart.size()}"> </c:out> </a> Item(s)
+Welcome to My Resto<a href="viewcart" > <c:out value="${cart.size()}"> </c:out> </a> Item(s)
 <c:if test="${empty uid}">
- <a href ="register?c=index">Sigin</a> 
+ <a href ="register?c=index">Signin</a> 
  </c:if>
   <c:if test="${not empty uid}">
  Hello <c:out value="${uid}"> </c:out> <a href ="logout">Sign out</a>
